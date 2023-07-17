@@ -5,7 +5,12 @@ class Bolinha extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Desabilita o botão Voltar do navegador
+
     return Scaffold(
+      appBar: AppBar(
+        title: const Text("Bolinha"),
+      ),
       body: Center(
         child: Container(
           alignment: Alignment.center,

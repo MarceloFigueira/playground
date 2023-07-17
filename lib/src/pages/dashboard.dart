@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:playground/src/pages/bolinha.dart';
 
 class Dashboard extends StatelessWidget {
   const Dashboard({super.key});
